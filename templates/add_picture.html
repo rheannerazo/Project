@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Picture</title>
+</head>
+<body>
+    <h2>Add a New Picture</h2>
+    <form method="post" action="/add_picture">
+        <label for="url">Image URL:</label>
+        <input class="form-control" type="text" name="url" required>
+        <label for="year">Year:</label>
+        <input class="form-control" type="text" name="year" required>
+        <label for="title">Title:</label>
+        <input class="form-control" type="text" name="title">
+
+        <button type="submit" class="btn btn-primary">Add Picture</button>
+    </form>
+</body>
+</html>

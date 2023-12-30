@@ -1,0 +1,24 @@
+<!-- result.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess Result</title>
+    <!-- Add your styles or Bootstrap here if needed -->
+</head>
+<body class="main">
+    <div class="container mt-5">
+        <h1>Guess Result</h1>
+        <div class="col-lg-6 mx-auto">
+            <div class="img-container">
+                <img src="{{ picture.url }}" alt="Image to guess" class="img-fluid">
+            </div>
+            <p class="question text-center">Correct Year: {{ picture.year }}</p>
+            <p class="text-center">Congratulations! You guessed it right!</p>
+        </div>
+    </div>
+    <!-- Add your scripts or Bootstrap scripts here if needed -->
+</body>
+</html>
